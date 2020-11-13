@@ -171,7 +171,3 @@ class SSD512:
 
         return model
 
-
-model = SSD512()
-model.build((512, 512, 3), 2)
-
